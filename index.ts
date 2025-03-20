@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import readline from "readline";
 import { stdout } from "process";
-import { console } from "inspector/promises";
+
 
 let width = Math.floor(stdout.columns / 2) - 6,
 	height = stdout.rows - 8;
